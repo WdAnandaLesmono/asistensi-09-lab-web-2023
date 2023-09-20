@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 2rem 7%;
+   background: hsl(30, 100%, 50%);
+   align-items: center;
+   position: sticky;
+   z-index: 100; 
+}
+
+.navbar a {
+    /* display: flex; */
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 500;
+    margin-right: 3.5rem;
+}
+
+.navbar a:hover {
+    background-color: rgb(171, 102, 13);
+}
+
+section {
+    min-height: 100vh;
+    padding: 3rem 7% 2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30vh;
+    margin: 0 10%;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+}
+
+.about p {
+    font-size: 16px;
+    text-align: justify;
+    align-items: center;
+    padding: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.4s;
+}
+
+.gallery img:hover {
+    transform: scale(1.04);
+}
+
+.contact {
+    background-color: rgb(40, 99, 76);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.contact-left {
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-right {
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    nav a {
+        font-size: 20px;
+    }
+    
+    .contact {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 5%;
+    }
+
+    .footer_right {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery img {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 470px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }  
+}
