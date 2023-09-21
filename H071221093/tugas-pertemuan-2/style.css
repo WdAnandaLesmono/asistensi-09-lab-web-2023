@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: inline-block;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.navbar{
+    
+    justify-content: center;
+    width: 100%;
+    background-color: #7D7C7C;
+    color: black;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.navbar li {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 7px 70px;
+    color: white;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 28px;
+    background-color: grey;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    background-color: black;
+}
+
+.description h1{
+    font-family: Helvetica;
+    font-weight: 1000;
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+    letter-spacing: 5px;
+
+}
+
+.description p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    line-height:45px;
+    text-align: justify;
+    padding: 50px;
+}
+
+.gallery{
+    padding: 30px 30px ;
+}
+
+img{
+    width: 80%;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.gallery ul {
+    list-style-type: none;
+    display: grid;
+    padding: 30px 30px;
+    margin-left: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #7D7C7C;
+    justify-content: space-between;
+}
+
+.source{
+    margin-top: 25px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    
+}
+
+.contact a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact img{
+    margin-left: 20px;
+    width: 80px;
+}
+
+@media (max-width: 800px) {
+    .nav{
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+
+    .nav ul{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar li{
+        width: 100%;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .menu-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav ul.hidden{
+        display: none;
+    }
+
+    .description{
+        margin-top: 0;
+    }
+
+    .gallery ul{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))    }
+}
