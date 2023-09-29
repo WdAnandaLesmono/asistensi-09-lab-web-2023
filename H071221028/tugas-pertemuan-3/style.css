@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 38px;
+    font-weight: 600;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav.link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+
+.nav.link:hover{
+    color: black;
+
+}
+.search{
+    height: 40px;
+    width: 88%;
+    border-radius: 22px;
+    outline: none;
+    border: 2px #335b4c solid;
+    margin-right: -35px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:#335b4c ;
+    color: white;
+    border-radius: 22px;
+    font-weight: 700;
+}
+.new{
+    margin-top: 78px;
+    
+}
+.header h3{
+    font-weight: 400;
+}
+.text1{
+    margin-top: 22px;
+    /* margin-right: 80px; */
+    margin-bottom: 88px;
+}
+.text{
+    margin-top: 22px;
+    /* margin-left: 90px; */
+    margin-bottom: 88px;
+}
+
+.card{
+    border: 0px;
+}
+.img-fluidd{
+    margin-top: 78px;
+}
+.technology{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.technology-col{
+    width: 100%;
+    margin: 24px;
+    text-align: left;
+}
+.technology-col img{
+    width: 100%;
+
+}
+footer{
+    background: #e6eae9;
+    height: auto;
+    width: 100%;
+    padding-top: 48px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 48px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    margin-top: 28px;
+}
+   
+h2{
+    font-weight: 200px;
+}
