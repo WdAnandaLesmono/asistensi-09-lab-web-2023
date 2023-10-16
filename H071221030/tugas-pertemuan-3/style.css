@@ -1,0 +1,92 @@
+a {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar.sticky-top.navbar-expand-lg.bg-secondary {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar.sticky-top.navbar-expand-lg.bg-secondary li a {
+  color: white;
+  font-family: "Trajan Pro", sans-serif;
+  justify-content: center;
+}
+
+.navbar.sticky-top.navbar-expand-lg.bg-secondary li a:hover {
+  color: rgb(95, 201, 95);
+  font-family: "Trajan Pro", sans-serif;
+  justify-content: center;
+}
+
+.btn.btn-outline-success.ms-auto {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(95, 201, 95);
+  color: white;
+  font-family: "Trajan Pro", sans-serif;
+  border: none;
+  font-size: x-large;
+}
+
+.btn.btn-outline-success.ms-auto:hover {
+  background-color: white;
+  color: rgb(95, 201, 95);
+}
+
+/* .alert.alert-light {
+  display: flex;
+  width: 50%;
+  font-size: xx-large;
+  font-family: Adobe Garamond Pro;
+  align-items: center;
+  border: 0;
+}
+
+.alert.alert-light.desc {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  font-size: xx-large;
+  font-family: Adobe Garamond Pro;
+  align-items: center;
+  border: 0;
+} */
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  font-family: Adobe Garamond Pro;
+}
+
+.container-fluid {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+
+.card.h-100 img {
+  min-width: 200px;
+  max-width: 350px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.trailer.d-flex.justify-content-center {
+  width: fit-content;
+}
+
+.trailer.d-flex.justify-content-center video {
+  filter: brightness(0.4);
+  height: 100%;
+  margin: 10px;
+}
