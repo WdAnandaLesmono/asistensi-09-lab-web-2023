@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let angka = parseInt(prompt('Angka : '))
+        let pangkat = parseInt(prompt('Pangkat : '))
+        let hasil = 1
+
+        for (let i = 0; i < pangkat; i++){
+            hasil *= angka
+        }
+
+        alert(`${angka} pangkat ${pangkat} adalah ${hasil}`)
+    </script>
+</body>
+</html>
