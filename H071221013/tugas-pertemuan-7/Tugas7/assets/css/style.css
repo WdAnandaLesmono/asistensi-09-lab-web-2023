@@ -1,0 +1,75 @@
+body { 
+    margin: 0; padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: inline-grid;
+}
+
+.card-login {
+    box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    width: 27%;
+    background: rgb(221, 219, 216);
+    padding: 1em;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #ff8800;
+    padding: 0.5em;
+    color: #ff8800;
+}
+
+.card-body {
+    margin-top: 3em;
+    padding: 0.5em;
+}
+
+form.form-login {
+    width: 100%;
+}
+
+input.form-input {
+    padding: 1em;
+    border-radius: 50px;
+    /* border: none; */
+    border: 1px solid #ff8800;
+}
+
+label.form-label {
+    color: rgb(205, 167, 51);
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button.btn.btn-login {
+    width: 100%;
+    background-color: #ff8800;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 2em;
+    color: white;
+    font-size: 14px;
+}
+
+.a-container {
+    display: flex;
+    justify-content: space-around;
+}
